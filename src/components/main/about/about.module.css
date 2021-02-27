@@ -1,0 +1,81 @@
+@import '../../../source/fonts/font.css';
+
+.main{
+    width: 100%;
+    height: 90%;
+    overflow-y: hidden;
+    background : white;
+    position: absolute;
+    bottom: 0;
+    border-radius: 15px 15px 0px 0px;
+}
+.block{
+    width: 56%;
+    height: 457px;
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    width: 27%;
+    height: 100%;
+
+}
+.name{
+    font-size: 70px;
+    color: #878787;
+    margin: 0;
+}
+.date{
+    color: #878787;
+    font-size: 30px;
+}
+.block h4,.block h3{
+    margin: 0;
+    font-weight: normal;
+}
+.description{
+    color: #878787;
+    font-size: 30px;
+}
+.itemBlock{
+    display: flex;
+    height: 170px;
+    align-items: center;
+}
+.image{
+    height: 100%;
+    width: 60%;
+}
+.temp{
+    color: black;
+    font-size: 100px;
+    font-weight: bold;
+}
+.minAndMaxBlock{
+    display: flex;
+    justify-content: space-around;
+    color: #636363;
+    font-size: 45px;
+}
+.descItem{
+    font-size: 45px;
+    color: #636363;
+    font-weight: bold;
+}
+.item .descItem{
+    margin-top: 36px;
+}
+.exit:before{
+    font-family: 'icomoon' !important;
+    content: "\e967";
+    color: #00EF43;
+    font-size: 50px;
+}
+.exit{
+    border: none;
+    outline: none;
+    background : white;
+    cursor: pointer;
+    margin-top: 54px;
+    margin-left: 3%;
+}

@@ -1,0 +1,32 @@
+@import '../../source/fonts/font.css';
+
+
+.main{
+    background : #06AADD;
+    height: 108px;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    width: 7%;
+    height: 100%;
+    background : url("../../source/logo.svg") no-repeat;
+    margin-left: 10%;
+}
+.title{
+    color: white;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 20%;
+    font-weight: normal;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-size: 50px;
+}
+.title:before{
+    font-family: 'icomoon' !important;
+    content: "\e9c1";
+    margin-right: 25px;
+}

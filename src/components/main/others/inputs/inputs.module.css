@@ -1,0 +1,7 @@
+.error{
+    color: red;
+
+}
+.errorDiv input{
+    border: 1px solid red;
+}
